@@ -1,0 +1,79 @@
+[
+    {
+        "batch_size": 32,
+        "contract_address": "0x53176249C840618Aacb9048728130e7556865433",
+        "dataset": "mnist",
+        "epochs": 1,
+        "eval_method": "shapley",
+        "final_global_accuracy": 0.9688,
+        "final_round_num": 3,
+        "global_loss": [
+            2.302548885345459,
+            0.2864874303340912,
+            0.16046051681041718,
+            0.10900864005088806
+        ],
+        "learning_rate": 0.01,
+        "num_trainers": 2,
+        "protocol": "crowdsource",
+        "quick_run": false,
+        "seed": 32,
+        "split_type": "equal",
+        "token_counts": {
+            "Bob": [
+                998396515846252416,
+                2066101804375648512,
+                3159365706145763456
+            ],
+            "Carol": [
+                1017817050218582144,
+                2092352241277694720,
+                3192780695855617536
+            ]
+        },
+        "total_token_counts": [
+            2016213566064834560,
+            4158454045653343232,
+            6352146402001380992
+        ],
+        "trainers": [
+            "Bob",
+            "Carol"
+        ]
+    },
+    {
+        "batch_size": 32,
+        "contract_address": "0x63C5A09f4eae40CD9EAc8f38AF2557FfFCcaAc5C",
+        "dataset": "mnist",
+        "epochs": 1,
+        "eval_method": "shapley",
+        "final_round_num": 3,
+        "learning_rate": 0.01,
+        "num_trainers": 2,
+        "protocol": "consortium",
+        "quick_run": false,
+        "seed": 32,
+        "split_type": "equal",
+        "token_counts": {
+            "Bob": [
+                1974857032299041792,
+                4091524764895439104,
+                6257984176278114304
+            ],
+            "Carol": [
+                1994535863399505664,
+                4119844809174537728,
+                6296173393726349056
+            ]
+        },
+        "total_token_counts": [
+            3969392895698547456,
+            8211369574069976832,
+            12554157570004463360
+        ],
+        "trainers": [
+            "Bob",
+            "Carol"
+        ]
+    }
+]
